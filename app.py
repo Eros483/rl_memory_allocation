@@ -510,7 +510,7 @@ if process_sizes_str:
     action_size=memory_size
     agent=DQNAgent(state_size, action_size)
 
-    load_path="D:\\collegeCode\\sem4\\csd204\\project\\memory_allocator_dqn.pth"
+    load_path="memory_allocator_dqn.pth"
     agent.q_network.load_state_dict(torch.load(load_path))
     print(f"loaded trained model from path: {load_path}")
 
