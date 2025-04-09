@@ -2,6 +2,8 @@
 
 This Streamlit application simulates different dynamic memory allocation algorithms, including First Fit, Best Fit, Worst Fit, Second Fit, and a Reinforcement Learning (RL) based approach. It visualizes the memory state after each allocation using bar charts and displays the calculated external fragmentation.
 
+https://rl-mem-alloc-am-sr.streamlit.app/
+
 ## Overview
 
 The application allows users to:
